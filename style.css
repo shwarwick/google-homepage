@@ -1,13 +1,8 @@
-.logobox{
-    text-align: center;
-}
-    .logobox::before{
-        content: '';
-        height: 100%;
-        display: inline-block;
-        vertical-align: middle;
+.google-logo{
+    height:92px;
+    width:272px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;        
     }
-.logo{
-    display:inline-block;
-    vertical-align: middle;
-}
