@@ -48,17 +48,24 @@ table {
 }
 /* Meyer Reset End*/
 
+.header-container{
+    width: 100%;
+    text-align: center;
+    vertical-align: bottom;
+    line-height: 30px;
+    height: 60px;
+    position: absolute;
+    top: 3%;
+}
 ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline;
-    float: right;
+    margin: 15px,10px,10px,0px;
+    
 }
 
 li{
     float: left;
-    padding:15px;
+    padding:8px;
 }
 
 li a{
@@ -66,6 +73,18 @@ li a{
     color: rgba(0,0,0,0.87);
     text-decoration: none;
     font-family: arial, sans-serif; 
+    font-size: 13px;
+    text-align: left;
+}
+
+.google-apps{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.google.account{
+    display: inline-block;
+    vertical-align: middle;
 }
 
 a:hover, a:active{
@@ -73,8 +92,8 @@ a:hover, a:active{
 }
 
 .google-logo{
-    height:92px;
-    width:272px;
+    height:117px;
+    width:292px;
     display: block;
     margin: auto;
     position: absolute;
