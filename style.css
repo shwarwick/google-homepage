@@ -59,6 +59,7 @@ table {
     justify-content: center;
     margin: 10px;
 }
+
 .google-apps, .google.account{
     display: inline-block;
     vertical-align: middle;
@@ -84,7 +85,7 @@ li a{
     text-align: left;
 }
 
-a:hover, a:active{
+li a:hover, li:active{
     text-decoration: underline;
 }
 
@@ -100,9 +101,26 @@ input[type=search]{
     box-sizing: border-box;
     border-radius: 25px;
     border: 1px solid rgb(221, 220, 220);
-    text-indent: 10px;
+    text-indent: 5px;
     background: #fcfcfc;
     font-family: FontAwesome, arial, sans-serif;
+}
+
+.search-button, .lucky-button{
+    height: 30px;
+    display: inline-block;
+    
+}
+
+a {
+    color: #000000;
+    text-decoration:none;
+    }
+
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
 }
 
 footer{
