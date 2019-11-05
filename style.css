@@ -94,25 +94,15 @@ center{
     top: 200px;
 }
 
-.fa-search{
-    position: absolute;
-    top: 24px;
-    left: 7px;
-    font-size: 15px;
-}
 
 input[type=search]{
     padding: 13px ;
     box-sizing: border-box;
     border-radius: 25px;
     border: 1px solid rgb(221, 220, 220);
-    width 550px;
-    text-indent: 30px;
+    text-indent: 10px;
     background: #fcfcfc;
-}
-
-span{
-    font: arial, sans-serif;
+    font-family: FontAwesome, arial, sans-serif;
 }
 
 footer{
