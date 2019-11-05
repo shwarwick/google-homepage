@@ -49,6 +49,7 @@ table {
 /* Meyer Reset End*/
 
 .header-container{
+
     width: 100%;
     text-align: center;
     vertical-align: middle;
@@ -61,22 +62,25 @@ table {
 }
 
 .google-apps, .google.account{
+
     display: inline-block;
     vertical-align: middle;
 }
 
 ul{
+
     list-style-type: none;
-    margin: 15px,10px,10px,15px;
-    
+    margin: 15px,10px,10px,15px;   
 }
 
 li{
+
     float: left;
     padding:8px;
 }
 
 li a{
+
     display: inline-block;
     color: rgba(49, 49, 49, 0.87);
     text-decoration: none;
@@ -86,17 +90,20 @@ li a{
 }
 
 li a:hover, li a:active{
+
     text-decoration: underline;
 }
 
 
 center{
+
     position: relative;
     top: 200px;
 }
 
 
 input[type=search]{
+
     padding: 13px ;
     box-sizing: border-box;
     border-radius: 25px;
@@ -107,28 +114,33 @@ input[type=search]{
 }
 
 .search-button, .lucky-button{
+
     height: 30px;
     display: inline-block;
 }
 
 .search-button:hover, .lucky-button:hover{
+
     color: black;
     border: 1px solid rgb(169, 172, 175);
     box-shadow: 0px 0px 1px 0px #ccc;
 }
 
 a {
+
     color: #000000;
     text-decoration:none;
     }
 
 .divider{
+
     width:5px;
     height:auto;
     display:inline-block;
 }
 
 .search-button, .lucky-button {
+
     padding: 30;
     border: none;
     border-radius: 5px;
@@ -138,6 +150,7 @@ a {
 }
 
 footer{
+
     position: fixed;
     left: 0;
     bottom: 0;
