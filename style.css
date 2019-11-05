@@ -88,22 +88,27 @@ a:hover, a:active{
     text-decoration: underline;
 }
 
+
+center{
+    position: relative;
+    top: 200px;
+}
+
+.fa-search{
+    position: absolute;
+    top: 24px;
+    left: 7px;
+    font-size: 15px;
+}
+
 input[type=search]{
     padding: 13px ;
     box-sizing: border-box;
     border-radius: 25px;
-    border: 1px solid grey;
+    border: 1px solid rgb(221, 220, 220);
     width 550px;
-}
-
-
-.google-search{
-    height:117px;
-    width:292px;
-    display: block;
-    margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;  
+    text-indent: 30px;
+    background: #fcfcfc;
 }
 
 span{
